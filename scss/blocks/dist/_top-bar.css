@@ -1,0 +1,27 @@
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+.top-bar__settings-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  gap: 12px;
+}
+.top-bar__opening-hours {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+}
+.top-bar__opening-hours-open {
+  border-radius: 50%;
+  background-color: lightgreen;
+  height: 4px;
+  width: 4px;
+}
