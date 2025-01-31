@@ -1,0 +1,37 @@
+@use '../base/variables' as *;
+
+.landing{
+    background: radial-gradient(ellipse at center, rgba(246, 232, 218, 1) 40%, rgba(255, 255, 255, 1) 70%);    
+    height: 70%;
+    border-bottom: 3px solid $tertiary-color;
+    padding: 48px 0;
+
+    &__title{
+        display: grid;
+        grid-template-rows: 3;
+        grid-template-columns: 1;
+        font-size: 78px;
+        font-weight: 300;
+
+        &-item1{
+            grid-row: 1;
+        }
+        &-item2{
+            grid-row: 2;
+            justify-self: center;
+        }
+        &-item3{
+            grid-row: 3;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+        }
+        &-links{
+            font-size: 14px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 12px;
+        }
+    }
+}

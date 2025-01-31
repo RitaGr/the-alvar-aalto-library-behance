@@ -3,25 +3,38 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 24px;
+  width: 100%;
+  padding-bottom: 24px;
 }
 .top-bar__settings-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  list-style: none;
+  justify-content: flex-start;
+  align-items: center;
   gap: 12px;
+  font-size: 14px;
 }
-.top-bar__opening-hours {
+.top-bar__logo {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: stretch;
   align-items: center;
+}
+.top-bar__logo-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+.top-bar__schedule {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
   gap: 6px;
 }
-.top-bar__opening-hours-open {
+.top-bar__schedule-open {
   border-radius: 50%;
   background-color: lightgreen;
-  height: 4px;
-  width: 4px;
+  height: 6px;
+  width: 6px;
 }

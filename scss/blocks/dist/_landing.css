@@ -1,0 +1,33 @@
+.landing {
+  background: radial-gradient(ellipse at center, #f6e8da 40%, white 70%);
+  height: 70%;
+  border-bottom: 3px solid #EAEAEA;
+  padding: 48px 0;
+}
+.landing__title {
+  display: grid;
+  grid-template-rows: 3;
+  grid-template-columns: 1;
+  font-size: 78px;
+  font-weight: 300;
+}
+.landing__title-item1 {
+  grid-row: 1;
+}
+.landing__title-item2 {
+  grid-row: 2;
+  justify-self: center;
+}
+.landing__title-item3 {
+  grid-row: 3;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.landing__title-links {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+}

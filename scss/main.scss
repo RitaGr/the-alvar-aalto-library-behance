@@ -2,3 +2,10 @@
 @use './base/global' as *;
 
 @use './blocks/top-bar';
+@use './blocks/menu';
+@use './blocks/landing';
+@use './blocks/latest-news';
+@use './blocks/guided-tours';
+@use './blocks/events';
+@use './blocks/virtual-reality';
+@use './blocks/departments';

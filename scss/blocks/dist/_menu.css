@@ -1,0 +1,22 @@
+.menu {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+}
+.menu__bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 24px;
+  grid-column: 1/span 3;
+}
+.menu__sidebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 24px;
+  grid-column: 4;
+}
