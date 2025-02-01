@@ -1,6 +1,6 @@
 .landing {
   background: radial-gradient(ellipse at center, #f6e8da 40%, white 70%);
-  height: 70%;
+  height: 60vh;
   border-bottom: 3px solid #EAEAEA;
   padding: 48px 0;
 }
