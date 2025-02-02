@@ -1,7 +1,7 @@
 .guided-tours {
   padding: 12px 0 48px 0;
   border-bottom: 3px solid #EAEAEA;
-  gap: 48px;
+  width: 100%;
 }
 .guided-tours__title {
   font-size: 20px;
@@ -10,14 +10,15 @@
 }
 .guided-tours__content {
   display: grid;
-  overflow: hidden;
-  grid-template-columns: auto auto auto auto;
+  row-gap: 48px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto auto;
-  gap: 24px;
 }
 .guided-tours__info {
   display: grid;
-  grid-column: 3/4;
+  grid-column: 3/span 4;
   grid-row: 1;
   gap: 12px;
   padding: 24px;
@@ -38,18 +39,26 @@
 }
 .guided-tours__images {
   display: grid;
+  width: 100%;
   gap: 12px;
   grid-row: 2;
-  grid-column: 1/4;
+  grid-column: 1/span 4;
   grid-template-rows: auto;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1.5fr 0.5fr;
+  overflow: hidden;
 }
 .guided-tours__images-first {
-  grid-column: 1;
+  grid-column: 1/span 2;
+  object-fit: cover;
+  width: 100%;
 }
 .guided-tours__images-second {
-  grid-column: 2/4;
+  grid-column: 3/span 1;
+  object-fit: cover;
+  width: 100%;
 }
 .guided-tours__images-third {
-  grid-column: 3/4;
+  grid-column: 4/span 1;
+  object-fit: contain;
+  width: 100%;
 }
