@@ -1,0 +1,11 @@
+@use '../base/variables' as *;
+
+.departments{
+    padding: 12px 0 0 0;
+    border-bottom: 3px solid $tertiary-color;
+
+    &__title{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}

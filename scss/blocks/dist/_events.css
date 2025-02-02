@@ -1,0 +1,14 @@
+.events {
+  padding: 12px 0 0 0;
+  border-bottom: 3px solid #EAEAEA;
+}
+.events__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+}
+.events__title-secondary {
+  font-size: 14px;
+}

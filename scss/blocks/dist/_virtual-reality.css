@@ -1,0 +1,8 @@
+.virtual-reality {
+  padding: 12px 0 0 0;
+  border-bottom: 3px solid #EAEAEA;
+}
+.virtual-reality__title {
+  font-size: 20px;
+  font-weight: 500;
+}

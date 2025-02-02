@@ -1,0 +1,8 @@
+.departments {
+  padding: 12px 0 0 0;
+  border-bottom: 3px solid #EAEAEA;
+}
+.departments__title {
+  font-size: 20px;
+  font-weight: 500;
+}
