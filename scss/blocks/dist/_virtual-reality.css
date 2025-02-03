@@ -1,8 +1,38 @@
 .virtual-reality {
-  padding: 12px 0 0 0;
   border-bottom: 3px solid #EAEAEA;
+  min-height: 100vh;
 }
 .virtual-reality__title {
   font-size: 20px;
   font-weight: 500;
+  padding: 12px 0 48px 0;
+}
+.virtual-reality__subtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: last baseline;
+  font-size: 36px;
+  font-weight: 400;
+}
+.virtual-reality__subtitlecontainer {
+  display: flex;
+  flex-direction: column;
+}
+.virtual-reality__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+  height: 100vh;
+}
+.virtual-reality__box {
+  display: flex;
+  flex-direction: row;
+}
+.virtual-reality__item {
+  font-size: 32px;
+  color: #C4C4C4;
+  text-decoration: none;
 }

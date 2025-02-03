@@ -1,11 +1,41 @@
 @use '../base/variables' as *;
 
 .virtual-reality{
-    padding: 12px 0 0 0;
     border-bottom: 3px solid $tertiary-color;
+    min-height: 100vh;
 
     &__title{
         font-size: 20px;
         font-weight: 500;
+        padding: 12px 0 48px 0;
+    }
+    &__subtitle{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: last baseline;
+        font-size: 36px;
+        font-weight: 400;
+    }
+    &__subtitlecontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    &__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        align-items: center;
+        height: 100vh;
+    }
+    &__box{
+        display: flex;
+        flex-direction: row;
+    }
+    &__item{
+        font-size: 32px;
+        color: $secondary-color;
+        text-decoration: none;
     }
 }
