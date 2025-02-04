@@ -31,3 +31,6 @@
   height: 3rem;
   border-bottom: 3px solid #EAEAEA;
 }
+.departments__item:hover {
+  border-bottom: 3px solid #1C1C1C;
+}
