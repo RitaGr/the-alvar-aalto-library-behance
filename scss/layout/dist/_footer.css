@@ -82,3 +82,6 @@
   flex-direction: row;
   gap: 24px;
 }
+.additional__text {
+  font-weight: 500;
+}
